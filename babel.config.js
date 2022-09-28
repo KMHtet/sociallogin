@@ -14,6 +14,7 @@ module.exports = {
           '@functions': './src/app/features',
           '@screens': './src/app/FeaturesScreens.tsx', 
           '@navigations': './src/app/navigations',
+          '@componnets': './src/components',
         },
       },
     ],

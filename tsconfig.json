@@ -106,7 +106,9 @@
       "@functions": ["./src/app/features"],
       "@screens": ["./src/app/FeaturesScreen.tsx"], 
       "@navigations": ["./src/app/navigations"],
-      "@navigations/*": ["./src/app/navigations/*"]
+      "@navigations/*": ["./src/app/navigations/*"],
+      "@components": ["./src/components"],
+      "@components/*": ["./src/components/*"]
     }
   },
   "exclude": [
