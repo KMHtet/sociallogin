@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, Touchable, Image, TouchableOpacity } from "react-native";
+import { StyleSheet, Image, TouchableOpacity } from "react-native";
 
 const ItemSocialLogin = (props: any) => {
 

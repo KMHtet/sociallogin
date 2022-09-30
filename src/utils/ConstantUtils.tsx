@@ -9,8 +9,8 @@ export const DATA_SOCIAL_LOGIN = [
     },
     {
         id: 2,
-        code: 'gm',
-        content: 'Gmail',
+        code: 'google',
+        content: 'google',
         icon: images.gmail
     },
     {

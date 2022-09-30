@@ -1,8 +1,9 @@
-import {View, Text, StyleSheet} from 'react-native';
-// import { FooterSocialLogin } from '@components';
+import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import FooterSocialLogin from '../../components/FooterSocialLogin/FooterSocialLogin';
+import { SCREENS } from '../../navigations';
 
 const LoginScreen = () => {
+
     return (
         <View style={styles.container}>
             <FooterSocialLogin />
