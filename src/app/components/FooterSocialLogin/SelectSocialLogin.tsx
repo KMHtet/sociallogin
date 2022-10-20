@@ -1,9 +1,8 @@
 import { View, StyleSheet } from "react-native";
 import ItemSocialLogin from "./ItemSocialLogin";
 import { DATA_SOCIAL_LOGIN } from "../../../utils";
-
-import { SCREENS } from "../../navigations";
 import { useNavigation } from '@react-navigation/native';
+import { SCREENS } from "@navigations";
 
 const SelectSocialLogin = () => {
 

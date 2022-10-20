@@ -1,9 +1,7 @@
 import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { SCREENS } from './ScreenRouters';
 
-const Stack = createStackNavigator();
 const nativeStack = createNativeStackNavigator();
 
 
@@ -27,6 +25,10 @@ export const RootNavigations = () => {
                 <nativeStack.Screen
                     name={SCREENS.SETTING.name}
                     component={SCREENS.SETTING.component}
+                />
+                <nativeStack.Screen 
+                    name={SCREENS.PUSH_NOTIFICATION.name}
+                    component={SCREENS.PUSH_NOTIFICATION.component}
                 />
             </nativeStack.Navigator>
         </NavigationContainer>

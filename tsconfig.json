@@ -108,7 +108,7 @@
       "@navigations": ["./src/app/navigations"],
       "@navigations/*": ["./src/app/navigations/*"],
       "@components": ["./src/components"],
-      "@components/*": ["./src/components/*"]
+      "@components/*": ["./src/components/*"],
     }
   },
   "exclude": [

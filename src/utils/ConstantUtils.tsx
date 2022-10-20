@@ -26,3 +26,41 @@ export const DATA_SOCIAL_LOGIN = [
         icon: images.instagram
     }
 ];
+
+export const DATA_HOME_FUNCTION = [
+    {
+        id: 1,
+        code: 'fb_push_noti',
+        content: 'Push Notification'
+    },
+    {
+        id: 2,
+        code: 'testing',
+        content: 'Testing'
+    },
+    {
+        id: 3,
+        code: 'testing',
+        content: 'Testing'
+    },
+    {
+        id: 4,
+        code: 'testing',
+        content: 'Testing'
+    },
+    {
+        id: 5,
+        code: 'testing',
+        content: 'Testing'
+    },
+    {
+        id: 6,
+        code: 'testing',
+        content: 'Testing'
+    },
+    {
+        id: 7,
+        code: 'testing',
+        content: 'Testing'
+    },
+]
